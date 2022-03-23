@@ -43,6 +43,8 @@ a {
   border-radius: 30px;
   font-weight: 700;
   font-size: 14px;
+  border: 0px;
+  cursor: pointer;
 }
 
 .btn-primary {
@@ -54,6 +56,18 @@ a {
 .btn-primary:hover {
   background: #222;
   color: white;
+  border: 3px solid white;
+}
+
+.btn-secondary {
+  background: #222;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background: white;
+  color: #222;
+  border: 3px solid #222;
 }
 
 .container {
@@ -66,6 +80,11 @@ a {
   /* my = margin y vertical (up and down), it's a generic class */
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .mx-10 {
@@ -155,4 +174,31 @@ a {
 .feature {
   float: left;
   width: 50%;
+}
+
+/* person */
+
+.person {
+  height: 400px;
+  background: url(../img/cafe2.jpg) center center/cover;
+}
+
+/* reservation */
+
+.reservation {
+  padding: 100px 0px 100px 0px;
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  background: #222;
+  color: white;
+  padding: 30px 0px 30px 0px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0px;
 }
