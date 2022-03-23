@@ -1,0 +1,71 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* general */
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+/* header */
+
+.header {
+  background: #333;
+  overflow: auto; /* on le met à cause des sous elem qui sont en float */
+  line-height: 1.7em; /* pour que les margins des li prendre toute l'espace*/
+}
+
+.header nav h1 {
+  float: left;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.header nav h1 a {
+  color: white;
+}
+
+.header nav ul {
+  float: right;
+  list-style: none;
+}
+
+.header nav ul li {
+  float: left;
+}
+
+.header nav ul li a {
+  color: white;
+  padding: 20px;
+  display: block; /*par defaut les a ne sont pas en block*/
+}
+
+.header nav ul li a:hover {
+  background: #444;
+}
+
+.active {
+  background: #444; /*donne un effet où l'on se situe */
+}
+
+/* body */
+
+body {
+  background: gray;
+}
