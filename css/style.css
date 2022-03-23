@@ -93,6 +93,28 @@ a {
   margin-right: 10px;
 }
 
+.underline {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.chip {
+  /* inline-block = between line and block, by default span is on display line (cannot change its width) so we must be change its display  */
+  display: inline-block;
+  text-align: center;
+  width: 28px;
+  border-radius: 100%;
+  background: #333;
+  color: white;
+}
+
+.chip-purple {
+  background: #be418d;
+}
+.chip-brown {
+  background: #8c5e24;
+}
+
 /* header */
 
 .header {
@@ -201,4 +223,24 @@ footer {
 
 footer p {
   margin-bottom: 0px;
+}
+
+/* where */
+
+.where {
+  padding: 180px 0px 100px 0px;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.where-img {
+  float: left;
+  width: 45%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.where-text {
+  float: right;
+  width: 50%;
 }
