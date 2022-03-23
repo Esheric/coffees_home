@@ -7,6 +7,7 @@
 }
 
 /* general */
+
 html,
 body {
   font-family: "Open Sans", sans-serif;
@@ -18,17 +19,54 @@ h3 {
   margin-bottom: 20px;
 }
 
+p {
+  margin-bottom: 10px;
+}
+
 a {
   color: #222;
   text-decoration: none;
+}
+
+.separator {
+  margin: 20px auto; /* to center the separator */
+  height: 10px;
+  width: 100px;
+  background: #111;
+}
+
+.btn {
+  /* btn = button, it's a generic class  */
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.btn-primary {
+  /* button with property color  */
+  background: white;
+  color: #222;
+}
+
+.btn-primary:hover {
+  background: #222;
+  color: white;
+}
+
+.my-10 {
+  /* my = margin y vertical (up and down), it's a generic class */
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* header */
 
 .header {
   background: #333;
-  overflow: auto; /* on le met à cause des sous elem qui sont en float */
-  line-height: 1.7em; /* pour que les margins des li prendre toute l'espace*/
+  overflow: auto; /* we put it because of the under elems children which are in float (so that they are taken into account) */
+  line-height: 1.7em; /* so that the margins of the li take up all the space */
 }
 
 .header nav h1 {
@@ -53,7 +91,7 @@ a {
 .header nav ul li a {
   color: white;
   padding: 20px;
-  display: block; /*par defaut les a ne sont pas en block*/
+  display: block; /* by default the a are not in block */
 }
 
 .header nav ul li a:hover {
@@ -61,11 +99,32 @@ a {
 }
 
 .active {
-  background: #444; /*donne un effet où l'on se situe */
+  background: #444; /* gives an effect where we are */
 }
 
-/* body */
+/* section */
 
-body {
-  background: gray;
+.vp {
+  /* vp = viewport */
+  height: 700px;
+  background: url(../img/cafe1.jpg) center center;
+  background-size: cover;
+  text-align: center;
+}
+
+.vp-content {
+  max-width: 600px;
+  padding-top: 150px;
+  color: white;
+  display: block;
+  margin: auto;
+}
+
+.vp-content h1 {
+  font-size: 50px;
+}
+.vp-content p {
+  font-size: 18px;
+  letter-spacing: 0.5px; /* to space the letter */
+  line-height: 1.9em; /* to space the lines */
 }
