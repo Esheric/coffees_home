@@ -1,1 +1,1 @@
-Coffe project using HTML and CSS.
+Coffee project using HTML and CSS.
