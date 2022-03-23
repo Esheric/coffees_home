@@ -11,6 +11,7 @@
 html,
 body {
   font-family: "Open Sans", sans-serif;
+  color: #222;
 }
 
 h1,
@@ -55,10 +56,22 @@ a {
   color: white;
 }
 
+.container {
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+}
+
 .my-10 {
   /* my = margin y vertical (up and down), it's a generic class */
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.mx-10 {
+  /* mx = margin x horizontal (leftt and right), it's a generic class */
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /* header */
@@ -127,4 +140,19 @@ a {
   font-size: 18px;
   letter-spacing: 0.5px; /* to space the letter */
   line-height: 1.9em; /* to space the lines */
+}
+
+/* features */
+
+/* /!\ we have 2 features, one with a s and another one without s  */
+
+.features {
+  overflow: auto; /* we put it because of the under elems children which are in float (so that they are taken into account) */
+  padding: 100px 0px 100px 0px;
+  text-align: center;
+}
+
+.feature {
+  float: left;
+  width: 50%;
 }
