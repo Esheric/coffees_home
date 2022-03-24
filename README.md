@@ -1,1 +1,1 @@
-Coffee site (in HTML and CSS) using "float".
+Coffee website (in HTML and CSS) using "float".
