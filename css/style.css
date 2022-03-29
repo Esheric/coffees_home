@@ -161,7 +161,7 @@ a {
 .vp {
   /* vp = viewport */
   min-height: 700px;
-  background: url(../img/cafe1.jpg) center center;
+  background: url(../img/coffee1.jpg) center center;
   background-size: cover;
   text-align: center;
 }
@@ -204,7 +204,7 @@ a {
 
 .person {
   height: 400px;
-  background: url(../img/cafe2.jpg) center center/cover;
+  background: url(../img/coffee2.jpg) center center/cover;
 }
 
 /* reservation */
